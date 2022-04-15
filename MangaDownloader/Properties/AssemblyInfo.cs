@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("GhostoPetto Manga Downloader")]
-[assembly: AssemblyDescription("This product is made by GhostPet. You can not make GhostPet be responsible for any injuries related to downloading websites, website packs and extensions from 3rd party developers. GhostPet has no relations with any of the websites which presented in the program. GhostPet is not responsible for your pirated downloaded comics.If you are a website owner, and make your website downloads disable, please contact via discord.")]
+[assembly: AssemblyTitle("MangaDownloader")]
+[assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("GhostPet")]
-[assembly: AssemblyProduct("GhostoPetto Manga Downloader")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("MangaDownloader")]
 [assembly: AssemblyCopyright("Copyright ©  2022")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

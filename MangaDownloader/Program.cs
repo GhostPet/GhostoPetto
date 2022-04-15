@@ -4,8 +4,6 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-using MangaDownloader.app;
-
 namespace MangaDownloader
 {
     internal static class Program
@@ -18,7 +16,7 @@ namespace MangaDownloader
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MainUi());
+            Application.Run(new Ui());
         }
     }
 }
