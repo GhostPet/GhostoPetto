@@ -2,6 +2,7 @@
 # GhostoPetto Manga Downloader
 ### _By GhostPet_
 
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
 GhostoPetto Manga Downloader is a manga downloader program.
 
