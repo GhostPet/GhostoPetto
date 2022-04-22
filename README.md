@@ -7,13 +7,17 @@ GhostoPetto Manga Downloader is a manga downloader program.
 
 - Select a website
 - Select a manga
-- Click a Download button of an apisode and wait.
+- Click a Download button of an episode and wait.
 
 ## Features
 
 - Simple and user-friendly interface.
 - Powerful Selenium web engine.
 - If you are a developer, you can simply integrate any website.
+
+## Supported Websites
+
+- ManMantai [Website](https://www.manmantai.com/)
 
 ## Requirements
 
