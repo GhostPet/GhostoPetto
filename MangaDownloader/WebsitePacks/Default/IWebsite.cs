@@ -11,8 +11,8 @@ namespace MangaDownloader.WebsitePacks.Default
     {
         string Name { get; }
         string[] Url { get; }
-        List<List<string>> GetMangas(Driver driver);
-        List<List<string>> GetEpisodes(Driver driver, string DetailslUrl);
-        bool Download(Driver driver, string DownloadPath, string EpisodeName, string ReaderUrl);
+        void GetMangas(ref Dictionary<string, string> mangas, ref System.ComponentModel.BackgroundWorker process);
+        void GetEpisodes(KeyValuePair<string, string> Manga, ref Dictionary<string, string> episodes, ref System.ComponentModel.BackgroundWorker process);
+        void Download(string DownloadPath, KeyValuePair<string, string> Episode);
     }
 }

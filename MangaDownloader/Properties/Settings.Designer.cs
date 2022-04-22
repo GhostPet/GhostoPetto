@@ -34,5 +34,29 @@ namespace MangaDownloader.Properties {
                 this["Theme"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string WebsiteMangaList {
+            get {
+                return ((string)(this["WebsiteMangaList"]));
+            }
+            set {
+                this["WebsiteMangaList"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string DownloadPath {
+            get {
+                return ((string)(this["DownloadPath"]));
+            }
+            set {
+                this["DownloadPath"] = value;
+            }
+        }
     }
 }

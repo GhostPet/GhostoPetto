@@ -33,7 +33,8 @@ You can check the lastest version from [here](https://github.com/GhostPet/MangaD
 
 Want to contribute? Great!
 
-You can add GhostoPetto Manga Downloader easily. This section will be updated soon.
+You can add GhostoPetto Manga Downloader easily;
+You can create a website pack with using the IWebsite.cs interface. Then add classes into the WebsitesList.cs.
 
 
 ## License

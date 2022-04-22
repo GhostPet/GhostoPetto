@@ -8,13 +8,13 @@ using MangaDownloader.WebsitePacks.v1_0;
 
 namespace MangaDownloader.WebsitePacks.Default
 {
-    internal class WebsitesList
+    internal static class WebsitesList
     {
-        internal List<List<IWebsite>> Websites = new List<List<IWebsite>>();
-
-        internal WebsitesList()
+        internal static List<IWebsite> Websites = new List<IWebsite>
         {
-            Websites.Add(new List<IWebsite> {new Manmantai()});
-        }
+            // You must add all your websites inside here.
+            new Manmantai()
+        };
+
     }
 }

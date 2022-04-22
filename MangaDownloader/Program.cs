@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 using MangaDownloader.app;
+using MangaDownloader.app.Classes;
 
 namespace MangaDownloader
 {
@@ -19,6 +20,7 @@ namespace MangaDownloader
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new MainUi());
+            Driver.ExitAll();
         }
     }
 }
